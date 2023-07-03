@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <Table border="2">
+            <h1><u>Job Application Form</u></h1>
+        <p>Name</p>
+        <input type="text" placeholder="First">  <input type="text" placeholder="Last">
+        <p>Email</p>
+        <textarea type="email" cols="44" rows="1" placeholder="Example@gmail.com"></textarea>
+        <br>
+            <p>What position are you applying for?</p>
+            <select name="courses">
+             <option value="web_developer">Web Developer</option>
+             <option value="react_native_developer">React Native Developer</option>
+             <option value="php_developer">PHP Developer</option>
+             <option value="python_developer">Python Developer</option>
+             <option value="ui/ux_developer">UI/UX Developer</option>
+             </select>
+             <p>Avalaible Date</p>
+             <input type="date">
+             <p>What is your current employee status?</p>
+                <input type="radio" name="status" value="employed" checked="checked" />Employed
+                <input type="radio" name="status" value="freelancer" />Freelancer
+                <input type="radio" name="status" value="intership" />Intership
+                <input type="radio" name="status" value="student" />Student
+                <p>Please provide you resume link</p>
+                <input type="url" name="website" cols="44" placeholder="https://www.example.com/">
+                <p>Please upload your resume</p>
+                <input type="file">
+                <p>Do you have references?</p>
+                <input type="text" placeholder="First">
+                <input type="text" placeholder="Last">
+                <p>Reference Email</p>
+                <input type="email" placeholder="Example@gmail.com">
+                <br />
+                <br />
+                <br />
+                <input type="submit" name="subscribe" value="Subscribe" />
+        </Table>
+    </form>
+    </body>
+</html>

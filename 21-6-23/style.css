@@ -1,0 +1,23 @@
+h1 {
+    color: blue; 
+}
+.text {
+    background: #000;
+    color: azure;
+}
+#heading{
+    color: blueviolet;
+}
+
+.list>li{
+    color: aqua;
+}
+.text span {
+    color: rgb(62, 97, 28);
+}
+.list #city {
+    color: chocolate;
+}
+h1+p {
+    color: aqua;
+}
