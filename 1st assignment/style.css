@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+h1{
+    color: chocolate;
+    font-size: 50px;
+}
+h2{
+    color: blue;
+}
+.address{
+    color: blueviolet;
+}
+.age{
+    text-decoration: underline;
+}
+.name{
+   font-size: 30px;
+   color: black;
+}
+.name1{
+    color: rgb(214, 18, 178);
+}
+button{
+    text-decoration: none;
+}
