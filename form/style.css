@@ -21,3 +21,7 @@ p{
     font-size: large;
     text-decoration: underline;
 }
+.form{
+    border: 2px solid black;
+    padding: -15px;
+}
