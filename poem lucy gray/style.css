@@ -1,0 +1,37 @@
+body{
+    background-image: url("./image/4.webp");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+.image{
+    border: 0px solid black;
+    width: 70%;
+}
+.image > h1{
+    color: white;
+    align-items: center;
+    margin-left: 35%;
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+.image > h3{
+    color: white;
+    align-items: center;
+    margin-left: 38%;
+    font-size: 20px;
+    margin-bottom: 70px;
+    text-shadow: 2px 2px black;
+    text-decoration: underline;
+    font-style: italic;
+}
+.paragraph{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 0.5px 0.5px rgb(121, 120, 120);
+    font-size: large;
+    margin: 40px;
+}
