@@ -1,0 +1,515 @@
+body{
+    margin: 0px;
+    background-color: #000;
+}
+.header > div > img{
+    width: 180px;
+    height: 80px;
+    display: inline-block;
+    margin: 10px 50px;
+}
+.header{
+    background-color: #000;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.menu > a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 30px;
+    font-family: 'Apercu Pro', sans-serif;
+}
+.btn > button{
+    border: 1px solid #ed1c24;
+    font-style: normal;
+    font-weight: 500;
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 16px;
+    line-height: 21px;
+    margin-left: 30px;
+    cursor: pointer;background-color: #ED1C24;
+    color: #fff;
+    margin-left: 100px;
+    font-family: 'Apercu Pro', sans-serif;
+}
+#arrow{
+    margin: 5px;
+    padding-left: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.image2 > img{
+    width: 100%;
+}
+.image2 > h1{
+    color: #fff;
+    text-align: center;
+}
+.main-slider{
+    display: flex;
+    /* width: 100%; */
+    margin: auto auto;
+}
+
+.slider1{
+    background-image: url("./image/slider1.webp");
+    border: 0px solid #fbf9f9;
+    background-size: 250px 350px;
+    width: 250px;
+    height: 350px;
+    margin-left: 90px;
+    margin-right: 20px;
+}
+.slider2{
+    background-image: url("./image/slider2.webp");
+    border: 0px solid #fff;
+    background-size: 250px 350px;
+    width: 250px;
+    height: 350px;
+    margin-right: 20px;
+}
+.slider3{
+    background-image: url("./image/slider3.webp");
+    border: 0px solid #fff;
+    background-size: 250px 350px;
+    width: 250px;
+    height: 350px;
+    margin-right: 20px;
+}
+.slider4{
+    background-image: url("./image/slider4.webp");
+    border: 0px solid #fff;
+    background-size: 250px 350px;
+    width: 250px;
+    height: 350px;
+}
+.slider-name > h3 {
+    color: #fff;
+    font-family: 'Apercu Pro', sans-serif;
+    font-weight: 10px;
+}
+.slider-name{
+    display: flex;
+    margin-left: 110px;
+}
+.div-2{
+    display: flex;
+    width: 100%;
+    background-color: #141414;
+    margin-top: 20px;
+}
+.img-4 > img{
+    width: 90%;
+}
+.text{
+    width: 50%;
+}
+.text > h4 {
+    color: #ED1C24;
+    font-family: 'Apercu Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    margin-bottom: 12px;
+    display: block;
+    margin-left: 0px;
+}
+.text > h1{
+    font-family: 'Butler';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 54px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+.text > p{
+    font-family: 'Apercu Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    /* margin: 24px 0px 38px; */
+    margin: 5% 10% 0px 0px;
+}
+.btn2{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-style: normal;
+    font-weight: 500;
+    display: inline-block;
+    width: 174px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 20px;
+    padding-top: 15px;
+    text-align: center;
+    margin-right: 16px;
+    cursor: pointer;
+}
+.btn2 > button{
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.div-3 > h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card > div > p{
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Apercu Pro', sans-serif;
+    font-weight: 100;
+}
+.card-1{
+    background-image: url(./image/card1.webp);
+    border: 0px solid #fff;
+    background-size: 320px 220px;
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 220px;
+    text-align: center;
+}
+.card-1 > h3{
+    margin-top: 250px;
+    color: #fff;
+    font-family: 'Apercu Pro', sans-serif;
+    font-weight: 100;
+}
+.card-2{
+    background-image: url(./image/card2.webp);
+    border: 0px solid #fff;
+    background-size: 320px 220px;
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 220px;
+    text-align: center;
+}
+.card-2 > h3{
+    margin-top: 250px;
+    color: #fff;
+    font-family: 'Apercu Pro', sans-serif;
+    font-weight: 100;
+}
+.card-3{
+    background-image: url(./image/card3.webp);
+    border: 0px solid #fff;
+    background-size: 320px 220px;
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 220px;
+    text-align: center;
+}
+.card-3 > h3{
+    margin-top: 250px;
+    color: #fff;
+    font-family: 'Apercu Pro', sans-serif;
+    font-weight: 100;
+}
+.btn-order{
+    margin-top: 10px;
+    color: #fff;
+    background-color: #ED1C24;
+    padding: 14px 39px;
+    border-radius: 45px;
+    font-weight: 400;
+    border: 0px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.div-4{
+    display: flex;
+    width: 100%;
+    background-color: #141414;
+    margin-top: 250px;
+    margin-right: 0px;
+    height: 600px;
+}
+.img-5{
+    margin: 0px;
+    height: 350px;
+}
+.text-2 > h4{
+    color: #ED1C24;
+    font-family: 'Apercu Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    margin-bottom: 12px;
+    display: block;
+    margin-left: 0px;
+    margin-top: 70px;
+}
+.text-2 > h1{
+    font-family: 'Butler';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54px;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.text-2 > p{
+    font-family: 'Apercu Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 5% 12% 0px 0px;
+}
+.text-2{
+    margin-left: 50px;
+}
+.text-2 > h2{
+    font-size: 26px;
+    font-weight: 500;
+    display: block;
+    color: #ffffff;
+    font-family: 'Apercu Pro', sans-serif;
+}
+.btn-3{
+
+}
+.btn3 > button{
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.btn3{
+    border: 1px solid #ed1c24;
+    font-style: normal;
+    font-weight: 500;
+    display: inline-block;
+    width: 174px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 20px;
+    padding-top: 10px 15px 15px 10px;
+    text-align: center;
+    margin-right: 16px;
+    cursor: pointer;
+    background-color: #ED1C24;
+}
+#btn3{
+    padding: 10px 0px 15px 25px;
+
+    font-size: 25px;    
+}
+.div-5 > h1{
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.images-1{
+    background-image: url("./image/images1.webp");
+    border: 0px solid #fff;
+    background-size: 200px 200px;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+.images-2{
+    background-image: url("./image/images2.webp");
+    border: 0px solid #fff;
+    background-size: 200px 200px;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+.images-3{
+    background-image: url("./image/images3.webp");
+    border: 0px solid #fff;
+    background-size: 200px 200px;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+.images-4{
+    background-image: url("./image/images4.webp");
+    border: 0px solid #fff;
+    background-size: 200px 200px;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+.images-5{
+    background-image: url("./image/images5.webp");
+    border: 0px solid #fff;
+    background-size: 200px 200px;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+.footer{
+    background-color: #131313;
+    width: 100%;
+    display: flex;
+}
+.column-1{
+    background-size: 450px 500px;
+    border: 0px solid #fff;
+    width: 450px;
+}
+.column-1 > img{
+    width: 140px;
+    height: 65px;
+    display: inline-block;
+    margin: 20px 50px;
+    margin-top: 50px;
+}
+.column-1 > p{
+    margin: auto 50px;
+    padding-bottom: 24px;
+    padding-right: 0px;
+    text-align: left;
+    font-family: 'Apercu Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
+.column-1 > a{
+    font-family: 'Apercu Pro', sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: 0.03em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.column-2 {
+    border: 0px solid #fff;
+    background-size: 230px 450px;
+    width: 230px;
+    height: 450px;
+}
+.column-2 > h3{
+    color: #ffffff;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.list > li{
+    text-decoration: none;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 30px 0px;
+    font-family: 'Apercu Pro', sans-serif;
+}
+.column-3{
+    border: 0px solid #fff;
+    background-size: 250px 450px;
+    width: 250px;
+    height: 450px;
+}
+.column-3 > h3{
+    color: #ffffff;
+    margin-top: 50px;
+    margin-left: 42px;
+}
+.list-2 > li{
+    list-style: none;
+    font-family: 'Apercu Pro', sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 30px 0px;
+}
+.column-4{
+    background-size: 250px 450px;
+    width: 250px;
+    height: 450px;
+}
+.column-4 > h3{
+    color: #ffffff;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.facebook{
+    background-color: #ED1C24;
+    border: 1px solid #ed1c24;
+    border-radius: 100px;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 80px;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+}
+.instagram{
+    background-color: #ED1C24;
+    border: 1px solid #ed1c24;
+    border-radius: 100px;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 10px;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+}
+.twitter{
+    background-color: #ED1C24;
+    border: 1px solid #ed1c24;
+    border-radius: 100px;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 10px;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+}
+.app-store > img{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.google-play{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.footer-end{
+    border-top: 0.5px solid #ffffff;
+    width: 100%;
+    background-color: #131313;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.footer-end > p{
+    color: rgba(255, 255, 255, 0.7);
+}
